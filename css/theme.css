@@ -1,0 +1,202 @@
+#loading {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  background-color: white;
+  z-index: 99999; }
+  #loading img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
+#resume #header {
+  position: fixed;
+  transition: 0.5s;
+  z-index: 999; }
+  #resume #header .menu {
+    text-align: center;
+    padding: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: All 0.3s;
+    cursor: pointer; }
+    #resume #header .menu img {
+      cursor: pointer;
+      position: absolute;
+      top: 65%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+    #resume #header .menu:hover {
+      color: #D5DBDB; }
+#resume .parallax-window {
+  min-height: 100vh;
+  background: transparent;
+  position: relative; }
+  #resume .parallax-window .header-in {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    #resume .parallax-window .header-in .image {
+      display: none;
+      border-radius: 50%;
+      background-image: url(../images/77602.jpg);
+      background-position: top;
+      background-size: contain;
+      width: 200px;
+      height: 200px;
+      border: 5px solid white;
+      box-shadow: 0 0 10px #000;
+      margin: auto; }
+    #resume .parallax-window .header-in .name {
+      display: none;
+      font-size: 36px;
+      text-align: center;
+      padding: 50px; }
+#resume #profile {
+  padding: 30px 20px 0 20px;
+  background: #eee; }
+  #resume #profile #head-profile {
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold; }
+  #resume #profile .profile {
+    padding: 10px; }
+    #resume #profile .profile div {
+      min-height: 310px;
+      font-size: 16px;
+      padding: 20px;
+      background: #fff;
+      letter-spacing: 1px; }
+      #resume #profile .profile div table tr td {
+        padding: 15px;
+        word-break: break-all; }
+        #resume #profile .profile div table tr td img {
+          height: 30px;
+          width: 30px; }
+#resume #education {
+  transition: 0.5;
+  padding: 40px 20px;
+  background: #eee; }
+  #resume #education #head-education {
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold; }
+  #resume #education .education {
+    padding: 10px;
+    text-align: center; }
+    #resume #education .education div {
+      min-height: 300px;
+      font-size: 16px;
+      padding: 40px;
+      background: #fff;
+      letter-spacing: 1px; }
+      #resume #education .education div img {
+        margin-bottom: 20px;
+        width: 120px; }
+#resume #project {
+  transition: 0.5;
+  padding: 0px 20px;
+  background: #eee; }
+  #resume #project .project {
+    padding: 10px; }
+    #resume #project .project div {
+      font-size: 16px;
+      min-height: 330px;
+      padding: 40px;
+      background: #fff;
+      letter-spacing: 1px; }
+      #resume #project .project div span.head {
+        font-size: 22px;
+        font-weight: bold; }
+      #resume #project .project div span.text {
+        font-size: 18px; }
+#resume #experience {
+  transition: 0.5;
+  padding: 40px 30px 40px 30px;
+  background: #eee; }
+  #resume #experience .experience {
+    min-height: 290px;
+    font-size: 18px;
+    padding: 30px;
+    background: #fff; }
+    #resume #experience .experience span.head {
+      font-size: 22px;
+      font-weight: bold; }
+  #resume #experience .skill {
+    min-height: 290px;
+    padding: 30px;
+    background: #333;
+    color: #fff; }
+    #resume #experience .skill span.head {
+      font-size: 22px;
+      font-weight: bold; }
+#resume .skillbar {
+  position: relative;
+  display: block;
+  margin-bottom: 15px;
+  width: 100%;
+  background: #eee;
+  height: 35px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -ms-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-transition-property: width, background-color;
+  -moz-transition-property: width, background-color;
+  -ms-transition-property: width, background-color;
+  -o-transition-property: width, background-color;
+  transition-property: width, background-color; }
+#resume .skillbar-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: bold;
+  font-size: 13px;
+  color: #fff;
+  background: #6adcfa;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-bottom-left-radius: 4px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px; }
+#resume .skillbar-title span {
+  display: block;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 0 20px;
+  height: 35px;
+  line-height: 35px;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px; }
+#resume .skillbar-bar {
+  height: 35px;
+  width: 0px;
+  background: #6adcfa;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px; }
+#resume .skill-bar-percent {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  font-size: 11px;
+  height: 35px;
+  line-height: 35px;
+  color: #444;
+  color: rgba(0, 0, 0, 0.4); }
+
+/*# sourceMappingURL=theme.css.map */

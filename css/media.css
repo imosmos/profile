@@ -1,0 +1,77 @@
+@media screen and (max-width: 1440px) {
+  #project .project img {
+    height: 120px; } }
+@media screen and (max-width: 768px) {
+  #header .menu {
+    padding: 30px 10px;
+    font-size: 10px; }
+
+  #project .project img {
+    height: 220px; } }
+@media screen and (max-width: 425px) {
+  #header .menu {
+    display: none; }
+
+  .parallax-window .header-in .image {
+    width: 100px;
+    height: 100px; }
+  .parallax-window .header-in .name {
+    display: none;
+    font-size: 28px; }
+
+  #project .project img {
+    height: 220px; } }
+@media screen and (max-width: 375px) {
+  #header .menu {
+    display: none; }
+
+  #project .project div {
+    font-size: 14px; }
+    #project .project div span.head {
+      font-size: 20px;
+      font-weight: bold; }
+    #project .project div span.text {
+      font-size: 16px; }
+  #project .project img {
+    height: 200px; }
+
+  #profile #head-profile {
+    font-size: 20px; }
+  #profile .profile div {
+    min-height: 300px;
+    font-size: 14px;
+    padding: 15px; }
+    #profile .profile div table tr td {
+      font-size: 12px;
+      padding: 15px;
+      word-break: break-all; }
+      #profile .profile div table tr td img {
+        height: 30px;
+        width: 30px; }
+
+  #education #head-education {
+    font-size: 20px; }
+  #education .education div {
+    min-height: 280px;
+    font-size: 14px; }
+    #education .education div img {
+      width: 100px; }
+
+  #experience .experience {
+    min-height: 290px;
+    font-size: 16px;
+    padding: 30px;
+    background: #fff; }
+    #experience .experience span.head {
+      font-size: 20px;
+      font-weight: bold; }
+  #experience .skill {
+    min-height: 290px;
+    padding: 30px;
+    background: #333;
+    color: #fff; }
+    #experience .skill span.head {
+      font-size: 20px;
+      font-weight: bold; } }
+
+/*# sourceMappingURL=media.css.map */
